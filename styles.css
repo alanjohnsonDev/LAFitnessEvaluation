@@ -5,6 +5,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+@media screen and (max-width: 480px) {
+    body {
+        max-width: 60%;
+    }
+}
+
 .title {
     text-align: center;
     color: goldenrod;
