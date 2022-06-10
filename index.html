@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pro Results Evaluation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="title">Pro Results</h1>
+            <section>
+                <img class="laFitnessLogo1" src="https://www.logolynx.com/images/logolynx/7a/7aec0383063b50d2944af3d6cf8583c4.png" alt="laFitnessLogo">
+            </section>
+            <h4 class="evaluation">Evaluation Questionnaire</h4>
+        </header>
+
+        <section>
+            <form class="signUp" action="https://formsubmit.co/alan.johnson.lafitness@gmail.com" method="POST">
+                <p class="question1">Ready to change your life?</p>
+                <label for="firstname">First Name:</label><br>
+                    <input type="text" id="firstname" name="firstname" required><br>
+                <label for="lastname">Last Name:</label><br>
+                    <input type="text" id="lastname" name="lastname" required><br>
+                <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                <label for="phone" id="phone" name="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" required>
+
+                <br>
+
+                <p class="question">What type of Fitness Journey are you on?</p>
+                    <input class="radio" type="radio" id="weightLoss" name="fitnessJourney" value="weightLoss"> Weight Loss<br>
+                    <input class="radio" type="radio" id="loseInches" name="fitnessJourney" value="loseInches"> Lose Inches<br>
+                    <input class="radio" type="radio" id="muscleTone" name="fitnessJourney" value="muscleTone"> Build Muscle<br>
+                    <input class="radio" type="radio" id="betterHealth" name="fitnessJourney" value="betterHealth"> Better Health<br>
+                
+
+                <p class="question">Whats your motivation to get Fit? (Check all that apply)</p>
+                <input type="checkbox" id="motivation" name="motivation">
+                    <label class="checkbox" for="motivation">Feel Better</label><br>
+                <input type="checkbox" id="motivation" name="motivation">
+                    <label class="checkbox" for="motivation">Feel Stronger</label><br>
+                <input type="checkbox" id="motivation" name="motivation">
+                    <label class="checkbox" for="motivation">Relieve Stress</label><br>
+                <input type="checkbox" id="motivation" name="motivation">
+                    <label class="checkbox" for="motivation">Improve Appearance</label><br>
+                <input type="checkbox" id="motivation" name="motivation">
+                    <label class="checkbox" for="motivation">Increase Mood</label><br>
+
+
+                <p class="question">How many times have you been on and off a diet in the past 3 years?</p>
+                    <input class="radio" type="radio" id="zeroToOne" name="diet" value="zeroToOne"> 0 - 1<br>
+                    <input class="radio" type="radio" id="twoToThree" name="diet" value="twoToThree"> 2 - 3<br>
+                    <input class="radio" type="radio" id="threeToFive" name="diet" value="threeToFive"> 3 - 5<br>
+                    <input class="radio" type="radio" id="don'tAsk" name="diet" value="don'tAsk"> Don't Ask<br>
+                
+
+                <p class="question">How many years have you been coming to the gym?</p>
+                    <input class="radio" type="radio" id="zeroToOne" name="years" value="zeroToOne"> 0 - 1 years<br>
+                    <input class="radio" type="radio" id="oneToTwo" name="years" value="oneToTwo"> 1 - 2 years<br>
+                    <input class="radio" type="radio" id="twoToFive" name="years" value="twoToFive"> 2 - 5 years<br>
+                    <input class="radio" type="radio" id="fiveToTen" name="years" value="fiveToTen"> 5 - 10 years<br>
+
+
+                <p class="question">How hard is it to stay accountable with your goals?</p>
+                    <input class="radio" type="radio" id="easy" name="accountable" value="easy"> Easy<br>
+                    <input class="radio" type="radio" id="notSoEasy" name="accountable" value="notSoEasy"> Not so easy<br>
+                    <input class="radio" type="radio" id="hard" name="accountable" value="hard"> Hard<br>
+                    <input class="radio" type="radio" id="VeryHard" name="accountable" value="veryHard"> Very Hard<br>
+
+
+                <p class="question"> Want a Complementary Fitness Assessment?</p>
+                <p class="lastQuestion">The Fitness Assessment will consist of taking you through
+                    a fun and exciting workout that will test your limits.  We will also dive into
+                    your fitness goals while testing your nutritional habits.</p> 
+                    
+                <p class="question">What days and times are you available to come into
+                    the gym for the Complementary Fitness Assessment?</p>
+                    <textarea cols="50" rows="8" placeholder="Days and times..."></textarea><br>
+
+                <input class="submit" type="submit" value="submit">
+            </form>
+        </section>
+        <br><br><br>
+        <section>
+            <img class="laFitnessLogo" src="https://www.logolynx.com/images/logolynx/7a/7aec0383063b50d2944af3d6cf8583c4.png" alt="laFitnessLogo">
+        </section>
+    </body>
+
+</html>

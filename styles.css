@@ -1,0 +1,116 @@
+
+
+body {
+    background-image: linear-gradient(rgb(13, 13, 203),skyblue);
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: goldenrod;
+    font-size: 45px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.laFitnessLogo1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.hash {
+    font-weight: normal;
+}
+
+.headerParagraph {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: auto;
+}
+
+.evaluation {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.signUp {
+    text-align: center;
+    color: white;
+}
+
+label {
+    width: 180px;
+    display: inline-block;
+    
+}
+
+.checkbox {
+    text-align: left;
+}
+
+.question1 {
+    font-size: 21px;
+    font-weight: bold;
+    font-style: italic;
+    color: goldenrod;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.question {
+    font-size: 21px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 0, 136);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.lastQuestion {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+textarea {
+    font-size: 14px;
+    color: rgb(0, 0 ,136);
+}
+
+.submit {
+    color:rgb(0, 0 ,136);
+    background-color: skyblue;
+    margin: auto;
+    font-size: 18px;
+    padding: 6px 10px;
+    text-transform: uppercase;
+    border: 2px solid blue;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.submit:hover {
+    background: darkblue;
+    color: white;
+    transform: translateY(4px);
+}
+
+.laFitnessLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.success {
+    font-size: 20px;
+    color: goldenrod;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
